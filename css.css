@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  body{
+    background-color: #E9D5CA;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .container{
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+  }
+  
+  img{
+    width: 100%;
+  }
+  
+  img.avatar{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    border: #363062 solid 4px;
+    box-shadow: 0 0 10px #363062;
+  }
+  
+  .username{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  ul{
+    list-style: none;
+    margin: 48px 0;
+  }
+  
+  h1{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 32px;
+    color: #4D4C7D;
+  }
+  
+  ul li a{
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #363062;
+    color: #E9D5CA;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    transition: background 400ms;
+    box-shadow: 0 0 10px #363062;
+  }
+  
+  ul li a:hover{
+    background: #4D4C7D;
+  }
+  
+  footer{
+    font-weight: 500px;
+    font-size: 12px;
+    color: blue;
+    opacity: 0.6;
+    transition: opacity 400ms;
+  }
+  
+  footer a{
+    color: #363062;
+  }
+  
+  footer:hover{
+    opacity: 1;
+  }
